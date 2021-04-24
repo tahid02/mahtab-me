@@ -1,0 +1,84 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.colorful{
+    color: rgb(248, 47, 11);
+    /* color: #e65f78; */
+}
+.centerItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    position: relative;
+}
+.navBG{
+    background-color: #464343;
+}
+
+
+.banner{
+    position: relative;
+    height: 90vh;
+    background-image: linear-gradient(  rgba(68, 51, 51, 0.4) , rgba(68, 51, 51, 0.4)  )  ,  url('https://wallpapercave.com/wp/wp4445828.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.headerArea #profession{
+    /* color: #464343; */
+    color: white;
+}
+
+.banner h2{
+    color:#464343 ;
+}
+
+.banner .button{
+    border-radius: 2rem;
+    padding: .4rem 1rem;
+    background-color: transparent;
+    color: white;
+}
+
+/* about me section */
+.aboutArea{
+    background-color: #464343;
+}
+.about{
+    width: 80%;
+    background-color: #464343;
+
+}
+
+ .fab{
+     font-size: 2rem;
+ }
+
+@media (max-width: 480px) {
+    .about{
+        width: 95%;
+    }
+  }
+
+  
+  .hireMe{
+      background-color: #464343;
+  }
+  
+  .hireMe .hire button{
+      padding: .5rem 1.2rem;
+      border-radius: .5rem;
+      background-color: rgb(248, 47, 11);
+  }
