@@ -191,38 +191,41 @@
                 <!-- Swiper -->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                        <div class="swiper-slide m-0">
+                            <div class="card p-0" style="width: 18rem;">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">Card link</a>
-                                  <a href="#" class="card-link">Another link</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                        <div class="swiper-slide m-0">
+                            <div class="card p-0" style="width: 18rem;">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">Card link</a>
-                                  <a href="#" class="card-link">Another link</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                        <div class="swiper-slide m-0">
+                            <div class="card p-0" style="width: 18rem;">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="card-link">Card link</a>
-                                  <a href="#" class="card-link">Another link</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
 
                     </div>
@@ -294,19 +297,27 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-          slidesPerView: 1,
-          spaceBetween: 30,
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            keyboard: {
+                enabled: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
-      </script>
+    </script>
 
 </body>
 
