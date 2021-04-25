@@ -70,6 +70,9 @@ body{
     .about{
         width: 95%;
     }
+    p{
+        font-size: .8rem;
+    }
   }
 
   
@@ -117,3 +120,23 @@ body{
     -webkit-align-items: center;
     align-items: center;
   }
+
+
+
+
+  /* filter and sorting part  */
+.menu {
+    text-align: center;
+}
+.menu button{
+    color: white;
+    padding: .5rem 1rem;
+    border:2px solid rgb(248, 47, 11);
+    background-color: transparent;
+    border-radius: .4rem;
+    transition: background-color .4s ease;
+}
+
+.menu button:focus{
+    background-color: rgb(248, 47, 11);
+}
