@@ -62,17 +62,16 @@ body{
 
 }
 
- .fab{
+ .fab,.fa{
      font-size: 2rem;
+     color: rgb(248, 47, 11);
  }
 
 @media (max-width: 480px) {
     .about{
         width: 95%;
     }
-    p{
-        font-size: .8rem;
-    }
+ 
   }
 
   
