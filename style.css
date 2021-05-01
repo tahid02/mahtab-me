@@ -70,6 +70,14 @@ body{
      color: rgb(248, 47, 11);
  }
 
+ .skills{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+/* .skills img{
+    width: 10%;
+} */
 @media (max-width: 480px) {
     .about{
         width: 95%;

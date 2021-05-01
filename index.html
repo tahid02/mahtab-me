@@ -22,6 +22,7 @@
     <header class="headerArea ">
 
 
+ 
         <nav class="navbar navbar-expand-lg navbar-light navBG  ">
             <div class="container-fluid">
                 <a class="navbar-brand text-light" href="#">Navbar</a>
@@ -39,7 +40,6 @@
                 </div>
             </div>
         </nav>
-
         <!-- nav bar area end  -->
 
 
@@ -81,7 +81,7 @@
                     class="card-img-top " alt="...">
                 <div class="card-body">
                     <h1 class="card-title text-light">About Me </h1>
-                    <h3>Hello! <span class="colorful"> I'm Tanzim Mahtab </span> </h3>
+                    <h3>Hello! <span class="  col col-md-3 col-sm-4 col-12 colorful"> I'm Tanzim Mahtab </span> </h3>
                     <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in
                         to
                         additional content. This content is a little bit longer.
@@ -101,358 +101,401 @@
         <!-- about me area end -->
 
 
+        <!-- my skills area start -->
 
-        <!-- my services area started -->
-        <section class="ourServiceArea">
-            <div class="  ourService px-5 bg-dark text-light text-center">
-                <h1> My Services </h1>
-                <div class="row ">
-                    <div class="col-md-4 col-sm-6 col-12 ">
-                        <div class="">
-                            <i class="fas fa-chart-line text-light"></i>
-                        </div>
-                        <h1 class="service_name">
-                            Graphic Design
-                        </h1>
-                        <div class="service_detail">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
-                            sit amet consectetur adipisicing.
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 ">
-                        <div class="">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h1 class="service_name">
-                            Graphic Design
-                        </h1>
-                        <div class="service_detail">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
-                            sit amet consectetur adipisicing.
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12">
-                        <div class="">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h1 class="service_name">
-                            Graphic Design
-                        </h1>
-                        <div class="service_detail">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
-                            sit amet consectetur adipisicing.
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 ">
-                        <div class="">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h1 class="service_name">
-                            Graphic Design
-                        </h1>
-                        <div class="service_detail">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
-                            sit amet consectetur adipisicing.
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section id="skills">
+            <h2>My skills</h2>
+           <div class="row g-4">
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://coursekaro.in/wp-content/uploads/2019/10/ck-javascript.png" style="width:100%;" alt=""></div>
+                   <div>javascript</div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://miro.medium.com/max/512/1*zXu2vsYPZ5mqF0tOB7kupA.png"  style="width: 100%;"  alt=""></div>
+                   <div>react</div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQZutuVAXi7boyDVdqMC_4xGIHBVaIUT7X8_bCZa6AYItzKGimXQg7rUXoEx-hLCnsaw&usqp=CAU"  style="width: 100%;"  alt=""></div>
+                   <div>redux</div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://cdn.iconscout.com/icon/free/png-512/html5-10-569380.png"  style="width: 100%;"  alt=""></div>
+                   <div>html </div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="data:image/png;base64,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"  style="width: 100%;"  alt=""></div>
+                   <div>css</div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://www.mbejda.com/content/images/2015/12/node.png"  style="width: 100%;"  alt=""></div>
+                   <div>node </div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/expressjs.png"  style="width: 100%;"  alt=""></div>
+                   <div>express </div>
+               </div>
+               <div class="  col col-md-2 col-sm-3 col-4">
+                   <div><img src="https://icon2.cleanpng.com/20180402/cjw/kisspng-mongodb-inc-computer-software-business-software-d-bay-leaves-5ac2915d780ea2.2723311115227006374918.jpg"  style="width: 100%;"  alt=""></div>
+                   <div>mongodb</div>
+               </div>
+               
+           </div>
         </section>
+        <!-- my skills area end -->
 
-        <!-- my services area end -->
 
 
-        <!-- hire me section started -->
-        <section class="hireMe centerItem text-center text-light">
-            <div class="hire">
-                <h3>
-                    I Am Available For <br> Freelancing
-                </h3>
-                <button>HIRE ME </button>
+  <!-- my services area started -->
+  <section class="ourServiceArea">
+    <div class="  ourService px-5 bg-dark text-light text-center">
+        <h1> My Services </h1>
+        <div class="row ">
+            <div class="col-md-4 col-sm-6 col-12 ">
+                <div class="">
+                    <i class="fas fa-chart-line text-light"></i>
+                </div>
+                <h1 class="service_name">
+                    Graphic Design
+                </h1>
+                <div class="service_detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing.
+                </div>
             </div>
-        </section>
-
-        <!-- hire me section ended -->
-
-
-
-        <!-- testimonial section started -->
-
-        <section class="testimonialArea">
-            <div class="testimonial">
-                <div class="text-light text-center">
-                    <h1>Our Client</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, distinctio quas! Fuga non
-                        neque culpa quidem odio? Qui rem, necessitatibus fugit distinctio enim quis? Ad magnam
-                        reiciendis corrupti facilis ratione.</p>
-
+            <div class="col-md-4 col-sm-6 col-12 ">
+                <div class="">
+                    <i class="fas fa-chart-line"></i>
                 </div>
-
-                <!-- Swiper -->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide  slideAlign ">
-                            <div class="card">
-                                <div class="centerItem testing">
-                                    <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
-                                        class="card-img-top  w-25 centerItem " alt="...">
-                                </div>
-                                <div class="card-body">
-
-                                    <p class="card-text text-secondary">"Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content."</p>
-                                    <div class="name">Ebony verty , NYC</div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="swiper-slide  slideAlign">
-                            <div class="card">
-                                <div class="centerItem">
-                                    <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
-                                        class="card-img-top  w-25" alt="...">
-
-                                </div>
-                                <div class="card-body">
-
-                                    <p class="card-text text-secondary">"Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content."</p>
-                                    <div class="name">Ebony verty , NYC</div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="swiper-slide  slideAlign">
-                            <div class="card">
-                                <div class="centerItem">
-                                    <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
-                                        class="card-img-top w-25" alt="...">
-
-                                </div>
-                                <div class="card-body">
-
-                                    <p class="card-text text-secondary">"Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content."</p>
-                                    <div class="name">Ebony verty , NYC</div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                <h1 class="service_name">
+                    Graphic Design
+                </h1>
+                <div class="service_detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing.
                 </div>
-
-
-
-
             </div>
-        </section>
-        <!-- testimonial section end-->
-
-
-
-
-        <!-- Our Works section start -->
-        <section class="workArea bg-dark">
-            <div class=" ">
-                <div class="item-menu menu ">
-                    <button data-filter="*">all </button>
-                    <button data-filter=".htmlCss">Html Css </button>
-                    <button data-filter=".javascript">javascript </button>
-                    <button data-filter=".react">react </button>
-                    <button data-filter=".node">node </button>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="">
+                    <i class="fas fa-chart-line"></i>
                 </div>
+                <h1 class="service_name">
+                    Graphic Design
+                </h1>
+                <div class="service_detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing.
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 ">
+                <div class="">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h1 class="service_name">
+                    Graphic Design
+                </h1>
+                <div class="service_detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-                <div class="item-detail row g-5 m-0">
-                    <div class="col-md-4 col-sm-6 col-12 item htmlCss">
+<!-- my services area end -->
 
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
+
+<!-- hire me section started -->
+<section class="hireMe centerItem text-center text-light">
+    <div class="hire">
+        <h3>
+            I Am Available For <br> Freelancing
+        </h3>
+        <button>HIRE ME </button>
+    </div>
+</section>
+
+<!-- hire me section ended -->
+
+
+
+<!-- testimonial section started -->
+
+<section class="testimonialArea">
+    <div class="testimonial">
+        <div class="text-light text-center">
+            <h1>Our Client</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, distinctio quas! Fuga non
+                neque culpa quidem odio? Qui rem, necessitatibus fugit distinctio enim quis? Ad magnam
+                reiciendis corrupti facilis ratione.</p>
+
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide  slideAlign ">
+                    <div class="card">
+                        <div class="centerItem testing">
+                            <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
+                                class="card-img-top  w-25 centerItem " alt="...">
                         </div>
+                        <div class="card-body">
+
+                            <p class="card-text text-secondary">"Some quick example text to build on the card
+                                title and make up
+                                the bulk of the card's content."</p>
+                            <div class="name">Ebony verty , NYC</div>
+                        </div>
+
+
                     </div>
-                    <div class="col-md-4 col-sm-6 col-12 item react">
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
+                </div>
+                <div class="swiper-slide  slideAlign">
+                    <div class="card">
+                        <div class="centerItem">
+                            <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
+                                class="card-img-top  w-25" alt="...">
+
                         </div>
+                        <div class="card-body">
+
+                            <p class="card-text text-secondary">"Some quick example text to build on the card
+                                title and make up
+                                the bulk of the card's content."</p>
+                            <div class="name">Ebony verty , NYC</div>
+
+                        </div>
+
                     </div>
-                    <div class="col-md-4 col-sm-6 col-12 item htmlCss">
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
+                </div>
+                <div class="swiper-slide  slideAlign">
+                    <div class="card">
+                        <div class="centerItem">
+                            <img src="https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png"
+                                class="card-img-top w-25" alt="...">
+
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 item javascript">
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
+                        <div class="card-body">
+
+                            <p class="card-text text-secondary">"Some quick example text to build on the card
+                                title and make up
+                                the bulk of the card's content."</p>
+                            <div class="name">Ebony verty , NYC</div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 item node">
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-12 item node">
-                        <div class="card h-100">
-                            <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-danger">Live now </button>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
             </div>
-        </section>
-
-
-        <!-- Our Works section end -->
-
-
-        <!-- contact us section start -->
-
-        <div class="contactArea">
-            <div class="contactUs">
-                <div class="contact_text text-center p-2">
-                    <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde quaerat molestiae deserunt
-                        perferendis.</p>
-                </div>
-                <div class="row g-5">
-                    <div class="col-md-4 col-sm-4 col-12 centerItem">
-                        <div class="text-center">
-                            <i class="fa fa-mobile-alt"></i>
-                            <h4>Call Us on</h4>
-                            <p>+90893489347849</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-12 centerItem">
-                        <div class="text-center">
-                            <i class="fa fa-envelope"></i>
-                            <h4>email Us on</h4>
-                            <p>example@gmail.com</p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-12 centerItem">
-                        <div class="text-center">
-                            <i class="fa fa-map-marker-alt"></i>
-                            <h4> visit office </h4>
-                            <p>203 baker street, london ,UK </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="p-2">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">your name</label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">subject</label>
-                    </div>
-
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">your message...</label>
-                    </div>
-                </div>
-                <div class="text-end">
-                    <button class="sendMessage">SEND MESSAGE</button>
-                </div>
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
 
 
 
 
-        <!-- contact us section end -->
-
-    </main>
-
-
+    </div>
+</section>
+<!-- testimonial section end-->
 
 
-    <footer class="text-center">
 
-        <div>
-            <span><i class="fab fa-facebook"></i></span>
-            <span><i class="fab fa-linkedin"></i></span>
-            <span><i class="fab fa-pinterest"></i></span>
-            <span><i class="fab fa-twitter"></i></span>
+
+<!-- Our Works section start -->
+<section class="workArea bg-dark">
+    <div class=" ">
+        <div class="item-menu menu ">
+            <button data-filter="*">all </button>
+            <button data-filter=".htmlCss">Html Css </button>
+            <button data-filter=".javascript">javascript </button>
+            <button data-filter=".react">react </button>
+            <button data-filter=".node">node </button>
         </div>
-        <div class="">
-            <span id="year"></span>
+
+        <div class="item-detail row g-5 m-0">
+            <div class="col-md-4 col-sm-6 col-12 item htmlCss">
+
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 item react">
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 item htmlCss">
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 item javascript">
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 item node">
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 item node">
+                <div class="card h-100">
+                    <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Live now </button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+
+    </div>
+</section>
+
+
+<!-- Our Works section end -->
+
+
+<!-- contact us section start -->
+
+<div class="contactArea">
+    <div class="contactUs">
+        <div class="contact_text text-center p-2">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde quaerat molestiae deserunt
+                perferendis.</p>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-4 col-sm-4 col-12 centerItem">
+                <div class="text-center">
+                    <i class="fa fa-mobile-alt"></i>
+                    <h4>Call Us on</h4>
+                    <p>+90893489347849</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 centerItem">
+                <div class="text-center">
+                    <i class="fa fa-envelope"></i>
+                    <h4>email Us on</h4>
+                    <p>example@gmail.com</p>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 centerItem">
+                <div class="text-center">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <h4> visit office </h4>
+                    <p>203 baker street, london ,UK </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">your name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here"
+                    id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">subject</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here"
+                    id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">your message...</label>
+            </div>
+        </div>
+        <div class="text-end">
+            <button class="sendMessage">SEND MESSAGE</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- contact us section end -->
+
+</main>
+
+
+
+
+<footer class="text-center">
+
+<div>
+    <span><i class="fab fa-facebook"></i></span>
+    <span><i class="fab fa-linkedin"></i></span>
+    <span><i class="fab fa-pinterest"></i></span>
+    <span><i class="fab fa-twitter"></i></span>
+</div>
+<div class="">
+    <span id="year"></span>
+</div>
+</footer>
 
 
 
