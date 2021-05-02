@@ -23,7 +23,7 @@ const testimonial = document.getElementById('testimonial')
 
 testimonials.map( card => {
    testimonial.innerHTML +=   `
-    <div class="swiper-slide  slideAlign " >
+    <div class="swiper-slide slideAlign " >
         <div class="card">
                     <div class="centerItem testing">
                         <img src=${card.testimonialImage}
