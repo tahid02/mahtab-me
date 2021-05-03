@@ -59,7 +59,7 @@
                     quibusdam nulla temporibus.</p>
                 <button class="button">Download CV</button>
             </div>
-           
+
         </section>
         <!-- landing page area end -->
 
@@ -73,8 +73,12 @@
     <main class="mainArea ">
 
 
-        <section class="curve " id="particles-js" >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="black" fill-opacity="1" d="M0,192L120,208C240,224,480,256,720,234.7C960,213,1200,139,1320,101.3L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+        <section class="curve " id="particles-js">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="black" fill-opacity="1"
+                    d="M0,192L120,208C240,224,480,256,720,234.7C960,213,1200,139,1320,101.3L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+                </path>
+            </svg>
         </section>
 
 
@@ -92,8 +96,9 @@
                         <div class="">
                             <h1 class="card-title text-light mb-3">About Me </h1>
                             <h3 class="mb-3">Hello! <span class="colorful"> I'm Tanzim Mahtab </span></h3>
-                            
-                            <p class="card-text text-light ">This is a wider card with supporting text below as a natural
+
+                            <p class="card-text text-light ">This is a wider card with supporting text below as a
+                                natural
                                 lead-in
                                 to
                                 additional content. This content is a little bit longer.
@@ -101,7 +106,8 @@
                                 eum ipsa
                                 adipisci quas harum commodi sunt asperiores dolorum!
                                 <br> Lorem, ipsum dolor eum ipsa adipisci quas harum commodi sunt asperiores dolorum!
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates provident accusantium alias error dolorum consectetur maxime corrupti id. Repellat, quam?
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates provident
+                                accusantium alias error dolorum consectetur maxime corrupti id. Repellat, quam?
                             </p>
                             <p class="socials">
                                 <span><i class="fab fa-facebook text-primary"></i></span>
@@ -119,8 +125,8 @@
 
 
         <!-- my skills area start -->
-        <section id="skills" >
-            <h2 >My skills</h2>
+        <section id="skills">
+            <h2>My skills</h2>
             <div class="row mx-0 g-4 px-4" id="skill">
                 <!--here skills are added from skills.js file -->
             </div>
@@ -216,7 +222,7 @@
 
         <!-- contact us section start -->
 
-        <div class="contactArea">
+        <div class="contactArea " style="background-color: black;">
             <div class="contactUs">
                 <div class="contact_text text-center p-2">
                     <h1>Contact Us</h1>
@@ -230,7 +236,7 @@
 
 
 
-                <div class="p-2">
+                <!-- <div class="p-2">
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="form-floating mb-3">
@@ -262,6 +268,66 @@
                             id="floatingTextarea"></textarea>
                         <label for="floatingTextarea">your message...</label>
                     </div>
+                </div> -->
+                <div class="p-2">
+                    <div class="row">
+
+
+                        <div class="col-md-6 col-sm-12 col-12 order-md-1 order-sm-2 order-2">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">your name</label>
+                            </div>
+
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+
+
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">subject</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" style="height: 20vh;"
+                                    id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">your message...</label>
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="col-md-6 col-sm-12 col-12 order-md-2 order-sm-1 order-1 centerItem">
+                            <!-- <img src="https://ak.picdn.net/shutterstock/videos/1039264568/thumb/4.jpg" alt=""> -->
+                            <!-- <img src="./images/Email campaign-pana (1).png" class="image-fluid w-100" alt=""> -->
+                            <img src="./images/Email campaign (2).gif" class="image-fluid w-75" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
                 <div class="text-end">
                     <button class="sendMessage">SEND MESSAGE</button>
@@ -278,7 +344,7 @@
 
 
 
-
+    
     <footer class="text-center">
 
         <div>
@@ -358,7 +424,7 @@
             },
             autoplay: {
                 delay: 2500,
-                disableOnInteraction: true,
+                disableOnInteraction: false,
             },
             pagination: {
                 el: '.swiper-pagination',
