@@ -26,7 +26,7 @@ services.map(data => {
     service.innerHTML += `
     <div class="col-md-4 col-sm-6 col-12 ">
         <div class="">
-            <i class="${data.serviceIcon} text-light" style="color: #f82f0b;"></i>
+            <i class="${data.serviceIcon} "></i>
         </div>
         <h2 class="service_name">
             ${data.serviceName}
