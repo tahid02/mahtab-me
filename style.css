@@ -78,7 +78,7 @@ body{
 
  .fab,.fa{
      font-size: 2rem;
-     color: rgb(248, 47, 11);
+    margin: 0 .4rem;
  }
 
 
@@ -120,7 +120,7 @@ body{
    .title {
       padding: 12vh 0;
   }
-   #service , .testimonial , #contact{
+   #service , .testimonial , #contact , #project{
       padding-bottom: 12vh;
   }
   #service i{
@@ -188,4 +188,8 @@ body{
 
 .menu button:focus{
     background-color: rgb(248, 47, 11);
+}
+
+footer{
+    background-color: black;
 }

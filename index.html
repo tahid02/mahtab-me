@@ -201,17 +201,20 @@
 
 
         <!-- Our Works section start -->
-        <section class="workArea bg-dark">
+        <section class="workArea bg-transparent text-light text-center">
             <div class=" ">
-                <div class="item-menu menu ">
+                
+                <div class="item-menu menu title">
+                    <h1 class="mb-3">My projects</h1>
+                    <p class="text-secondary">top projects I have done </p>
                     <button data-filter="*">all </button>
                     <button data-filter=".htmlCss">Html Css </button>
                     <button data-filter=".javascript">javascript </button>
                     <button data-filter=".react">react </button>
-                    <button data-filter=".node">node </button>
+                    <!-- <button data-filter=".node">node </button> -->
                 </div>
 
-                <div class="item-detail row g-5 m-0" id="project">
+                <div class="item-detail row g-5 m-0 " id="project">
                     <!-- here projects are added from ourWorks.js file  -->
                 </div>
 
@@ -224,11 +227,11 @@
 
         <!-- contact us section start -->
 
-        <div class="contactArea " style="background-color: black;">
+        <div class="contactArea " style="background-color: black;color:white">
             <div class="contactUs">
                 <div class="contact_text text-center title">
                     <h1>Contact Us</h1>
-                    <p> get connected with us </p>
+                    <p class="text-secondary"> get connected with us </p>
                 </div>
                 <div class="row mx-0 g-5" id="contact">
                     <!-- HERE CONTACTS DATA ARE ADDED FROM contactMe.js FILE -->
@@ -346,15 +349,16 @@
 
 
     
-    <footer class="text-center">
+    <footer class="text-center pb-3  " >
 
-        <div>
-            <span><i class="fab fa-facebook"></i></span>
-            <span><i class="fab fa-linkedin"></i></span>
-            <span><i class="fab fa-pinterest"></i></span>
-            <span><i class="fab fa-twitter"></i></span>
+        <div class="pt-5 pb-2">
+            <span><i class="fab fa-facebook text-primary"></i></span>
+            <span><i class="fab fa-linkedin text-info"></i></span>
+            <span><i class="fab fa-github "></i></span>
+            <span><i class="fab fa-twitter text-info"></i></span>
+            <span><i class="fab fa-youtube text-danger"></i></span>
         </div>
-        <div class="">
+        <div class="text-secondary">
             <span id="year"></span>
         </div>
     </footer>
