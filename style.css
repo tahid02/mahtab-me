@@ -117,11 +117,15 @@ body{
 
   }
 
-  .ourServiceArea .title {
+   .title {
       padding: 12vh 0;
   }
-  .ourServiceArea #service{
+   #service , .testimonial , #contact{
       padding-bottom: 12vh;
+  }
+  #service i{
+    font-size: 3rem;
+    
   }
   .hireMe{
       background-color: #464343;
@@ -135,12 +139,10 @@ body{
 
   /* testimonial section */
 .testimonialArea{
-    background-color: black;
+    background-color: #26282b;
 }
 
-.slideAlign div{
-    background-color: #464343;
-}
+
   .swiper-container {
     width: 100%;
     height: 100%;
@@ -151,7 +153,7 @@ body{
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #464343;
+    background: #26282b;
     width: 110%;
     /* Center slide text vertically */
     display: -webkit-box;

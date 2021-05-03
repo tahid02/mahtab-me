@@ -142,8 +142,12 @@
         <!-- my services area started -->
         <section class="ourServiceArea">
             <div class="  ourService px-4 text-light text-center">
-                <h1 class="title"> My Services </h1>
-                <div class="row g-4" id="service">
+                <h1 class="title"> 
+                    My Services
+                    <span class="d-block text-secondary" style="font-size: small;">Things I'm skilled at and passionate to do </span>
+                 </h1>
+                
+                <div class="row g-5" id="service" >
                     <!--here services is added from myServices.js file -->
                 </div>
             </div>
@@ -153,14 +157,14 @@
 
 
         <!-- hire me section started -->
-        <section class="hireMe centerItem text-center text-light">
+        <!-- <section class="hireMe centerItem text-center text-light">
             <div class="hire">
                 <h3>
                     I Am Available For <br> Freelancing
                 </h3>
                 <button>HIRE ME </button>
             </div>
-        </section>
+        </section> -->
 
         <!-- hire me section ended -->
 
@@ -168,19 +172,17 @@
 
         <!-- testimonial section started -->
 
-        <section class="testimonialArea">
+        <section class="testimonialArea" >
             <div class="testimonial">
 
-                <div class="text-light text-center">
+                <div class="text-light text-center title">
                     <h1>Our Client</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, distinctio quas! Fuga non
-                        neque culpa quidem odio? Qui rem, necessitatibus fugit distinctio enim quis? Ad magnam
-                        reiciendis corrupti facilis ratione.</p>
+                    <p class="text-secondary ">what our client says </p>
 
                 </div>
 
                 <!-- Swiper -->
-                <div class="swiper-container">
+                <div class="swiper-container client_says">
                     <div class="swiper-wrapper " id="testimonial">
                         <!-- here testimonials are added from testimonialCard.js file -->
                     </div>
@@ -224,10 +226,9 @@
 
         <div class="contactArea " style="background-color: black;">
             <div class="contactUs">
-                <div class="contact_text text-center p-2">
+                <div class="contact_text text-center title">
                     <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde quaerat molestiae deserunt
-                        perferendis.</p>
+                    <p> get connected with us </p>
                 </div>
                 <div class="row mx-0 g-5" id="contact">
                     <!-- HERE CONTACTS DATA ARE ADDED FROM contactMe.js FILE -->
@@ -301,7 +302,9 @@
                             </div>
 
 
-
+                            <div class="text-end ">
+                                <button class="sendMessage ">SEND MESSAGE</button>
+                            </div>
                         </div>
 
 
@@ -309,7 +312,7 @@
 
 
 
-                        <div class="col-md-6 col-sm-12 col-12 order-md-2 order-sm-1 order-1 centerItem">
+                        <div class="col-md-6 col-sm-12 col-12 order-md-2 order-sm-1 order-1 centerItem gif">
                             <!-- <img src="https://ak.picdn.net/shutterstock/videos/1039264568/thumb/4.jpg" alt=""> -->
                             <!-- <img src="./images/Email campaign-pana (1).png" class="image-fluid w-100" alt=""> -->
                             <img src="./images/Email campaign (2).gif" class="image-fluid w-75" alt="">
@@ -329,9 +332,7 @@
 
 
                 </div>
-                <div class="text-end">
-                    <button class="sendMessage">SEND MESSAGE</button>
-                </div>
+
             </div>
         </div>
 
@@ -424,7 +425,7 @@
             },
             autoplay: {
                 delay: 2500,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
             },
             pagination: {
                 el: '.swiper-pagination',
