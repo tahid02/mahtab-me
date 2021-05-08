@@ -2,17 +2,17 @@
 
 const testimonials = [
     {
-        testimonialImage:'https://img.wallpapic.com/i0179-129-143/medium/dj-black-men-and-white-wallpaper.jpg',
+        testimonialImage:'https://i.ibb.co/6wz2j8z/Ellipse-3.png',
         testimonialText:"Some quick example text to build on the card title and make up the bulk of the card's content.",
         testimonialAddress:'Ebony verty , washington'       
     },
     {
-        testimonialImage:'https://p1.hiclipart.com/preview/782/622/360/circle-shaped-s-man-taking-selfie-while-smiling-png-clipart.jpg',
+        testimonialImage:'https://i.ibb.co/hKcDBtC/Ellipse-2.png',
         testimonialText:"Some quick example text to build on the card title and make up the bulk of the card's content.",
         testimonialAddress:'licifar'       
     },
     {
-        testimonialImage:'https://www.clipartmax.com/png/small/94-947167_standing-man-white-silhouette-in-a-black-rounded-square-silueta-de-persona.png',
+        testimonialImage:'https://i.ibb.co/DzkfTxS/Ellipse-1.png',
         testimonialText:"Some quick example text to build on the card title and make up the bulk of the card's content.",
         testimonialAddress:'jhon weak'       
     },
