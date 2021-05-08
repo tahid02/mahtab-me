@@ -34,8 +34,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active text-light" href="#">Features</a>
-                        <a class="nav-link active text-light" href="#">Pricing</a>
+                        <a class="nav-link active text-light" href="#aboutMe"> About Me</a>
+                        <a class="nav-link active text-light" href="#skills">Skills </a>
+                        <a class="nav-link active text-light" href="#myServices">Services</a>
+                        <a class="nav-link active text-light" href="#myClients">Clients</a>
+                        <a class="nav-link active text-light" href="#myProjects"> Projects</a>
+                        <a class="nav-link active text-light" href="#myBlogs">Blog</a>
+                        <a class="nav-link active text-light" href="#contactMe">Contact</a>
                     </div>
                 </div>
             </div>
@@ -55,8 +60,7 @@
                         <span id="profession"> </span>
                     </h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem iste doloribus rem quas aliquam
-                    quibusdam nulla temporibus.</p>
+                <p>I am a MERN stack web developer who is always curious <br> about new technologies related to web application development <br> and will be glad to work with you. </p>
                 <button class="button">Download CV</button>
             </div>
 
@@ -84,11 +88,11 @@
 
 
         <!-- this is about me  area  started -->
-        <section class="aboutArea ">
+        <section class="aboutArea " id="aboutMe">
             <div class="row g-4">
-                <div class="col-md-6 col-12 centerItem">
-                    <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3V5JTIwaW4lMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
-                        class="card-img-top aboutImage" alt="...">
+                <div class="col-md-6 col-12 centerItem " >
+                    <img src="./images/my_image.jpg"
+                        class="card-img-top aboutImage " style="border-radius: 10px;" alt="...">
                 </div>
                 <div class="col-md-6 col-12 px-5">
                     <div class=" ">
@@ -97,21 +101,21 @@
                             <h1 class="card-title text-light mb-3">About Me </h1>
                             <h3 class="mb-3">Hello! <span class="colorful"> I'm Tanzim Mahtab </span></h3>
 
-                            <p class="card-text text-light ">This is a wider card with supporting text below as a
-                                natural
-                                lead-in
-                                to
-                                additional content. This content is a little bit longer.
-                                <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis porro placeat
-                                eum ipsa
-                                adipisci quas harum commodi sunt asperiores dolorum!
-                                <br> Lorem, ipsum dolor eum ipsa adipisci quas harum commodi sunt asperiores dolorum!
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates provident
-                                accusantium alias error dolorum consectetur maxime corrupti id. Repellat, quam?
+                            <p class="card-text text-light ">I am a Junior full stack web application developer , mainly focused in MERN stack,  experienced in web designing , developing , debugging , SEO and maintenance. <br>
+                                
+                                 I have full expertise in JavaScript ,React.js , Node.js , Express.js , MongoDB and Firebase .
+                            <br>
+                            <br>
+                                I actively seek out new technologies and stay up-to-date on industry trends and advancements. Building Responsive , Browser compatible , user-friendly websites and applications is my passion and I am confident to give my best at work
                             </p>
                             <p class="socials">
+                             <a href="https://github.com/tahid02">
                                 <span><i class="fab fa-github text-dark"></i></span>
+                            </a>   
+                            <a href="https://www.linkedin.com/in/tahid/">
                                 <span><i class="fab fa-linkedin text-info"></i></span>
+                            </a>
+                                
                                 <span><i class="fab fa-facebook text-primary"></i></span>
 
                             </p>
@@ -126,7 +130,7 @@
 
         <!-- my skills area start -->
         <section id="skills">
-            <h2>My skills</h2>
+            <h1 class="title">My skills</h1>
             <div class="row mx-0 g-4 px-4" id="skill">
                 <!--here skills are added from skills.js file -->
             </div>
@@ -140,14 +144,15 @@
 
 
         <!-- my services area started -->
-        <section class="ourServiceArea">
+        <section class="ourServiceArea" id="myServices">
             <div class="  ourService px-4 text-light text-center">
-                <h1 class="title"> 
+                <h1 class="title">
                     My Services
-                    <span class="d-block text-secondary" style="font-size: small;">Things I'm skilled at and passionate to do </span>
-                 </h1>
-                
-                <div class="row g-5" id="service" >
+                    <span class="d-block text-secondary" style="font-size: small;">Things I'm skilled at and passionate
+                        to do </span>
+                </h1>
+
+                <div class="row g-5" id="service">
                     <!--here services is added from myServices.js file -->
                 </div>
             </div>
@@ -156,27 +161,17 @@
         <!-- my services area end -->
 
 
-        <!-- hire me section started -->
-        <!-- <section class="hireMe centerItem text-center text-light">
-            <div class="hire">
-                <h3>
-                    I Am Available For <br> Freelancing
-                </h3>
-                <button>HIRE ME </button>
-            </div>
-        </section> -->
-
-        <!-- hire me section ended -->
+      
 
 
 
         <!-- testimonial section started -->
 
-        <section class="testimonialArea" >
+        <section class="testimonialArea" id="myClients">
             <div class="testimonial">
 
                 <div class="text-light text-center title">
-                    <h1>Our Client</h1>
+                    <h1>My Clients</h1>
                     <p class="text-secondary ">what our client says </p>
 
                 </div>
@@ -201,39 +196,67 @@
 
 
         <!-- Our Works section start -->
-        <section class="workArea bg-transparent text-light text-center">
+        <section class="workArea bg-transparent text-light text-center" id="myProjects">
             <div class=" ">
-                
+
                 <div class="item-menu menu title">
                     <h1 class="mb-3">My projects</h1>
                     <p class="text-secondary">top projects I have done </p>
-                    <button data-filter="*">all </button>
+                    <!-- <button data-filter="*">all </button>
                     <button data-filter=".htmlCss">Html Css </button>
                     <button data-filter=".javascript">javascript </button>
                     <button data-filter=".react">react </button>
-                    <!-- <button data-filter=".node">node </button> -->
+                    <button data-filter=".node">node </button> -->
                 </div>
 
-                <div class="item-detail row g-5 m-0 " id="project">
-                    <!-- here projects are added from ourWorks.js file  -->
-                </div>
+                <!-- <div class="item-detail row g-5 " id="project" >
+                    here projects are added from ourWorks.js file 
+                </div> -->
+                <div class="row g-4 container-fluid" id="project">
 
+                </div>
             </div>
+
+
         </section>
 
 
         <!-- Our Works section end -->
 
 
+
+
+        <!-- my blog section start -->
+        <section class="workArea bg-transparent text-light text-center" id="myBlogs">
+            <div class=" ">
+
+                <div class="item-menu menu title">
+                    <h1 class="mb-3">My Blogs</h1>
+                    <p class="text-secondary">top Blogs I have written </p>
+
+                </div>
+
+                <div class="row g-4 container-fluid" id="blog">
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- my blog section end -->
+
+
         <!-- contact us section start -->
 
-        <div class="contactArea " style="background-color: black;color:white">
+        <div class="contactArea " style="background-color: black;" id="contactMe">
             <div class="contactUs">
-                <div class="contact_text text-center title">
-                    <h1>Contact Us</h1>
-                    <p class="text-secondary"> get connected with us </p>
+                <div class="contact_text text-center title text-white">
+                    <h1>Contact Me</h1>
+                    <p class="text-secondary"> get connected with Me </p>
                 </div>
-                <div class="row mx-0 g-5" id="contact">
+                <div class="row mx-0 g-5 text-white" id="contact">
                     <!-- HERE CONTACTS DATA ARE ADDED FROM contactMe.js FILE -->
 
                 </div>
@@ -348,8 +371,8 @@
 
 
 
-    
-    <footer class="text-center pb-3  " >
+
+    <footer class="text-center pb-3  ">
 
         <div class="pt-5 pb-2">
             <span><i class="fab fa-facebook text-primary"></i></span>
@@ -449,6 +472,7 @@
 
 
     <script src="./ourWorks/ourWorks.js"></script>
+    
     <!-- isotope (filter and sort) CDN link -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script>
@@ -466,7 +490,7 @@
 
 
 
-
+<script src="./myBlog/myBlog.js"></script>
 
 
     <script src="./contactMe/contactMe.js"></script>

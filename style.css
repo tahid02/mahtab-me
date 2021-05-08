@@ -21,6 +21,9 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+a{
+    text-decoration: none;
+}
 .navBG{
     background-color: #464343;
 }
@@ -125,7 +128,7 @@ body{
    .title {
       padding: 12vh 0;
   }
-   #service , .testimonial , #contact , #project{
+   #service , .testimonial , #contact , #project , #blog{
       padding-bottom: 12vh;
   }
   #service i{
@@ -157,7 +160,7 @@ body{
 
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     background: #26282b;
     width: 110%;
     /* Center slide text vertically */
@@ -177,7 +180,6 @@ body{
 
 
 
-
   /* filter and sorting part  */
 .menu {
     text-align: center;
@@ -193,6 +195,14 @@ body{
 
 .menu button:focus{
     background-color: rgb(248, 47, 11);
+}
+
+
+.sendMessage{
+    border: none;
+    border-radius: 5px;
+    font-size: .8rem;
+    color: white;
 }
 
 footer{

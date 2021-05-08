@@ -2,7 +2,7 @@
 
 const testimonials = [
     {
-        testimonialImage:'https://p1.hiclipart.com/preview/99/117/78/circle-shaped-s-man-smiling-portrait-png-clipart.jpg',
+        testimonialImage:'https://img.wallpapic.com/i0179-129-143/medium/dj-black-men-and-white-wallpaper.jpg',
         testimonialText:"Some quick example text to build on the card title and make up the bulk of the card's content.",
         testimonialAddress:'Ebony verty , washington'       
     },

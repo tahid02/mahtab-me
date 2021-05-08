@@ -3,18 +3,18 @@
 const contacts = [
     {
         contactIcon:"fa fa-mobile-alt",
-        contactType:'call us on',
-        contactBy:'+90893489347849'
+        contactType:'call me on',
+        contactBy:'+88 01848378134'
     },
     {
         contactIcon:"fa fa-envelope",
-        contactType:'email us ',
-        contactBy:'example@gmail.com '
+        contactType:'email me ',
+        contactBy:'tanzim1463@gmail.com '
     },
     {
         contactIcon:"fa fa-map-marker-alt",
         contactType:'visit office ',
-        contactBy:'203 baker street, london ,UK '
+        contactBy:'Mirpur, Dhaka , Bangladesh '
     },
 ]
 
