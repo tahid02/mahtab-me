@@ -3,7 +3,7 @@
 const projects = [
     {
         technology: 'htmlCss',
-        projectImage: "../images/car rental.png",
+        projectImage: "https://i.ibb.co/9TkMNTK/car-rental.png",
         projectName: 'CAR RENTAL',
         projectDetail: `A platform where one can easily rent cars . Here 
 
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         technology: 'react',
-        projectImage: "../images/eshop image.png",
+        projectImage: "https://i.ibb.co/gtc7R1L/eshop-image.png",
         projectName: 'E-SHOP',
         projectDetail: `An e-commerce site to buy daily commodities .In this e-commerce site,       
         technologies: bootstrap , react , express.js, mongodb , firebase authentication , stripe payment.`,
