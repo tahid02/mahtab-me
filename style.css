@@ -31,10 +31,12 @@ a{
 .logo{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/*  */
 
 .banner{
     position: relative;
     height: 80vh;
+    /* https://i.ibb.co/Tk1yKZ0/Static-assets.gif */
     background-image: linear-gradient(  rgba(68, 51, 51, 0.4) , black  )  ,  url('https://i.ibb.co/CP1mxB9/Static-assets-cuate.png');
     /* background-image: linear-gradient(  black , black )  ; */
     background-size: cover;

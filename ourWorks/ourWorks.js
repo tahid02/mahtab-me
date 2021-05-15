@@ -9,7 +9,8 @@ const projects = [
 
         <b>technologies:</b> bootstrap, react.js , node.js , express.js , mongodb , firebase authentication .`,
         githubLink:'https://github.com/tahid02/car-rental-client',
-        liveSite:'https://car-rental-site.web.app/'
+        liveSite:'https://car-rental-site.web.app/',
+        projectAOS:'slide-left'
     },
     {
         technology: 'react',
@@ -18,7 +19,8 @@ const projects = [
         projectDetail: `An e-commerce site to buy daily commodities       
         <b>technologies:</b> bootstrap , react , express.js, mongodb , firebase authentication , stripe payment.`,
         githubLink:'https://github.com/tahid02/e-shop-client',
-        liveSite:'https://github.com/tahid02/e-shop-client'
+        liveSite:'https://github.com/tahid02/e-shop-client',
+        projectAOS:'zoom-in'
  
     },
     {
@@ -28,7 +30,8 @@ const projects = [
         projectDetail: `A web app provides ride sharing services.        
         <b>technologies:</b> bootstrap , react , firebase authentication. google map.`,
         githubLink:'https://github.com/tahid02/secure-rider',
-        liveSite:'https://github.com/tahid02/secure-rider'
+        liveSite:'https://github.com/tahid02/secure-rider',
+        projectAOS:'slide-right'
 
     },
 
@@ -42,7 +45,7 @@ const project = document.getElementById('project')
 
 projects.map(projectInfo => {
     project.innerHTML += `
-        <div class="col-md-4 col-sm-6 col-12 item ${projectInfo.technology} ">
+        <div class="col-md-4 col-sm-6 col-12 item ${projectInfo.technology} " data-aos="${projectInfo.projectAOS}">
 
             <div class="card h-100 bg-dark ">
                 <div class="centerItem"> 

@@ -4,7 +4,8 @@ const contacts = [
     {
         contactIcon:"fa fa-mobile-alt",
         contactType:'call me on',
-        contactBy:'+88 01848378134'
+        contactBy:'+88 01848378134',
+        
     },
     {
         contactIcon:"fa fa-envelope",
@@ -22,7 +23,7 @@ const contact = document.getElementById('contact');
 
 contacts.map( data => {
     contact.innerHTML += `
-        <div class="col-md-4 col-sm-4 col-12 centerItem">
+        <div class="col-md-4 col-sm-4 col-12 centerItem" data-aos='flip-up'>
             <div class="text-center">
                 <i class='${data.contactIcon}'></i>
                 <h4>${data.contactType}</h4>

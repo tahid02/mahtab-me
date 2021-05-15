@@ -41,7 +41,7 @@ const skills = [
 const skill = document.getElementById('skill')
 
 skills.map( info => {
-    skill.innerHTML += `<div class=" col col-md-2 col-sm-3 col-4">
+    skill.innerHTML += `<div class=" col col-md-2 col-sm-3 col-4" data-aos='zoom-in'>
     <div><img src=${info.skillImage} style="width:90%;" alt=""></div>
     <div>${info.skillName} </div>
 </div>`

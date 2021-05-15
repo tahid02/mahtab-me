@@ -9,6 +9,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Mahtab me</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -53,7 +54,7 @@
         <!-- landing page area start -->
 
         <section id="particles-js" class="banner" style="">
-            <div class="banner_text">
+            <div class="banner_text" >
                 <h1>Welcome</h1>
                 <div class="intro ">
                     <h2>I Am <br>
@@ -93,11 +94,11 @@
         <!-- this is about me  area  started -->
         <section class="aboutArea " id="aboutMe">
             <div class="row g-4">
-                <div class="col-md-6 col-12 centerItem ">
+                <div class="col-md-6 col-12 centerItem " data-aos="slide-right">
                     <img src="./images/my_image.jpg" class="card-img-top aboutImage " style="border-radius: 10px;"
                         alt="...">
                 </div>
-                <div class="col-md-6 col-12 px-5">
+                <div class="col-md-6 col-12 px-5" data-aos="slide-left">
                     <div class=" ">
 
                         <div class="">
@@ -308,7 +309,7 @@
                     <div class="row">
 
 
-                        <div class="col-md-6 col-sm-12 col-12 order-md-1 order-sm-2 order-2">
+                        <div class="col-md-6 col-sm-12 col-12 order-md-1 order-sm-2 order-2" data-aos='zoom-in-down'>
                             <form action="javascript:sendmail()" method="post" id="myForm">                                <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="Name" name="Name"
                                         placeholder="name">
@@ -347,7 +348,7 @@
 
 
 
-                        <div class="col-md-6 col-sm-12 col-12 order-md-2 order-sm-1 order-1 centerItem gif">
+                        <div class="col-md-6 col-sm-12 col-12 order-md-2 order-sm-1 order-1 centerItem gif" data-aos='zoom-in-up'>
                             <!-- <img src="https://ak.picdn.net/shutterstock/videos/1039264568/thumb/4.jpg" alt=""> -->
                             <!-- <img src="./images/Email campaign-pana (1).png" class="image-fluid w-100" alt=""> -->
                             <img src="./images/Email campaign (2).gif" class="image-fluid w-75" alt="">
@@ -508,6 +509,12 @@
 
 
   <script src="./contactMe/sendMessage.js"></script>
+
+  <!-- animating -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 </body>
