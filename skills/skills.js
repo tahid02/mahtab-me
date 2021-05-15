@@ -9,7 +9,7 @@ const skills = [
         skillName:'React'
     },
     {
-        skillImage:'https://e7.pngegg.com/pngimages/413/852/png-clipart-redux-react-logo-javascript-dq-purple-violet-thumbnail.png',
+        skillImage:'https://i.ibb.co/b32KxzM/png-clipart-redux-react-logo-javascript-dq-purple-violet-thumbnail-removebg-preview.png',
         skillName:'Redux'
     },
     {
@@ -17,7 +17,7 @@ const skills = [
         skillName:'HTML5'
     },
     {
-        skillImage:'https://p7.hiclipart.com/preview/653/527/681/css3-cascading-style-sheets-computer-icons-html-emblem.jpg',
+        skillImage:'https://i.ibb.co/smgysFH/css3-cascading-style-sheets-computer-icons-html-emblem-removebg-preview.png',
         skillName:'CSS3'
     },
     {
@@ -31,7 +31,7 @@ const skills = [
     },
     
     {
-        skillImage:'https://icon2.cleanpng.com/20180810/kro/kisspng-green-product-design-leaf-mongodb-c-driver-libmongoc-5b6d4a45b32675.6903679515338890937338.jpg',
+        skillImage:'https://i.ibb.co/0GPw0kG/kisspng-green-product-design-leaf-mongodb-c-driver-libmongoc-5b6d4a45b32675-6903679515338890937338-r.png',
         skillName:'MongoDB'
     }
     

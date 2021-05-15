@@ -31,29 +31,35 @@ const blog = document.getElementById('blog')
 
 blogs.map(blogInfo => {
     blog.innerHTML += `
-        <div class="col-md-4 col-sm-6 col-12 item ${blogInfo.technology} ">
 
+        <div class="col-md-4 col-sm-6 col-12 item ${blogInfo.technology} ">
+    <a href="${blogInfo.blogLink}">
 
 
         <div class="card h-100 bg-dark ">
             <div class="centerItem"> 
                 <img src='${blogInfo.blogImage}' class="card-img-top mt-2 p-2" alt="..." style="width:100%;background-color:#2e3135">
             </div>     
-        <div class="card-body">
+        <div class="card-body blogName" >
             <h5 class="card-title"> ${blogInfo.blogName} </h5>
-            <p class="card-text " style="font-size:1rem"> ${blogInfo.blogDetail}...</p>
+ 
         </div>
-        <div class="card-footer text-end pt-0 border-none bg-transparent">
-            <a href="${blogInfo.blogLink}">
-                <button class="sendMessage " style="font-size:1rem">Learn More </button>
-            </a>
-        </div>
+
     </div>
 
 
 
 
-           
+          </a> 
         </div>
+        
     `
 })
+
+{/* <p class="card-text " style="font-size:1rem"> ${blogInfo.blogDetail}...</p> */}
+
+{/* <div class="card-footer text-end pt-0 border-none bg-transparent">
+<a href="${blogInfo.blogLink}">
+    <button class="sendMessage " style="font-size:1rem">Learn More </button>
+</a>
+</div> */}

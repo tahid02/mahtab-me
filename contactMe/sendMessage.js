@@ -26,8 +26,6 @@ SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
             else{
                 console.error (message);
                 alert('There is error at sending message. ');
-                // document.getElementById('myForm')[0].reset();
-
                 
             }
 
