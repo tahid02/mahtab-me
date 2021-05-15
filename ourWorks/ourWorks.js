@@ -5,9 +5,9 @@ const projects = [
         technology: 'htmlCss',
         projectImage: "https://i.ibb.co/9TkMNTK/car-rental.png",
         projectName: 'CAR RENTAL',
-        projectDetail: `A platform where one can easily rent cars . Here 
+        projectDetail: `A platform where one can easily rent cars .
 
-        technologies used here are : bootstrap, react.js , node.js , express.js , mongodb , firebase authentication .`,
+        <b>technologies:</b> bootstrap, react.js , node.js , express.js , mongodb , firebase authentication .`,
         githubLink:'https://github.com/tahid02/car-rental-client',
         liveSite:'https://car-rental-site.web.app/'
     },
@@ -15,8 +15,8 @@ const projects = [
         technology: 'react',
         projectImage: "https://i.ibb.co/gtc7R1L/eshop-image.png",
         projectName: 'E-SHOP',
-        projectDetail: `An e-commerce site to buy daily commodities .In this e-commerce site,       
-        technologies: bootstrap , react , express.js, mongodb , firebase authentication , stripe payment.`,
+        projectDetail: `An e-commerce site to buy daily commodities       
+        <b>technologies:</b> bootstrap , react , express.js, mongodb , firebase authentication , stripe payment.`,
         githubLink:'https://github.com/tahid02/e-shop-client',
         liveSite:'https://github.com/tahid02/e-shop-client'
  
@@ -25,8 +25,8 @@ const projects = [
         technology: 'javascript',
         projectImage: "https://raw.githubusercontent.com/ProgrammingHero1/urban-riders/main/screenhots/PNG/1%20Home.png",
         projectName: 'SECURE-RIDERS',
-        projectDetail: `A web app provides ride sharing services        
-        technologies: bootstrap , react , firebase authentication. google map.`,
+        projectDetail: `A web app provides ride sharing services.        
+        <b>technologies:</b> bootstrap , react , firebase authentication. google map.`,
         githubLink:'https://github.com/tahid02/secure-rider',
         liveSite:'https://github.com/tahid02/secure-rider'
 

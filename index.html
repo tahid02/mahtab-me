@@ -25,7 +25,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light navBG  ">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">Navbar</a>
+                <a class="navbar-brand text-light" href="#">Mahtab</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -60,8 +60,11 @@
                         <span id="profession"> </span>
                     </h2>
                 </div>
-                <p>I am a MERN stack web developer who is always curious <br> about new technologies related to web application development <br> and will be glad to work with you. </p>
-                <button class="button">Download CV</button>
+                <p>I am a MERN stack web developer who is always curious <br> about new technologies related to web
+                    application development <br> and will be glad to work with you. </p>
+                <a href="https://drive.google.com/file/d/1Mx3OPnWMzLpE3gXUh6XFiRtvqM4hhVns/view?usp=sharing.pdf">
+                    <button class="button"> See Resume</button>
+                </a>
             </div>
 
         </section>
@@ -90,32 +93,37 @@
         <!-- this is about me  area  started -->
         <section class="aboutArea " id="aboutMe">
             <div class="row g-4">
-                <div class="col-md-6 col-12 centerItem " >
-                    <img src="./images/my_image.jpg"
-                        class="card-img-top aboutImage " style="border-radius: 10px;" alt="...">
+                <div class="col-md-6 col-12 centerItem ">
+                    <img src="./images/my_image.jpg" class="card-img-top aboutImage " style="border-radius: 10px;"
+                        alt="...">
                 </div>
                 <div class="col-md-6 col-12 px-5">
                     <div class=" ">
 
                         <div class="">
-                            <h1 class="card-title text-light mb-3"> <span class="colorful">About</span>  Me </h1>
-                            <h3 class="mb-3">Hello!  I'm<span class="colorful"> Tanzim Mahtab </span></h3>
+                            <h1 class="card-title text-light mb-3"> <span class="colorful">About</span> Me </h1>
+                            <h3 class="mb-3">Hello! I'm<span class="colorful"> Tanzim Mahtab </span></h3>
 
-                            <p class="card-text text-light ">I am a Junior full stack web application developer , mainly focused in MERN stack,  experienced in web designing , developing , debugging , SEO and maintenance. <br>
-                                
-                                 I have full expertise in JavaScript ,React.js , Node.js , Express.js , MongoDB and Firebase .
-                            <br>
-                            <br>
-                                I actively seek out new technologies and stay up-to-date on industry trends and advancements. Building Responsive , Browser compatible , user-friendly websites and applications is my passion and I am confident to give my best at work
+                            <p class="card-text text-light ">I am a Junior full stack web application developer , mainly
+                                focused in MERN stack, experienced in web designing , developing , debugging , SEO and
+                                maintenance. <br>
+
+                                I have full expertise in JavaScript ,React.js , Node.js , Express.js , MongoDB and
+                                Firebase .
+                                <br>
+                                <br>
+                                I actively seek out new technologies and stay up-to-date on industry trends and
+                                advancements. Building Responsive , Browser compatible , user-friendly websites and
+                                applications is my passion and I am confident to give my best at work
                             </p>
                             <p class="socials">
-                             <a href="https://github.com/tahid02">
-                                <span><i class="fab fa-github text-dark"></i></span>
-                            </a>   
-                            <a href="https://www.linkedin.com/in/tahid/">
-                                <span><i class="fab fa-linkedin text-info"></i></span>
-                            </a>
-                                
+                                <a href="https://github.com/tahid02">
+                                    <span><i class="fab fa-github text-dark"></i></span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tahid/">
+                                    <span><i class="fab fa-linkedin text-info"></i></span>
+                                </a>
+
                                 <span><i class="fab fa-facebook text-primary"></i></span>
 
                             </p>
@@ -161,7 +169,7 @@
         <!-- my services area end -->
 
 
-      
+
 
 
 
@@ -253,7 +261,7 @@
         <div class="contactArea " style="background-color: black;" id="contactMe">
             <div class="contactUs">
                 <div class="contact_text text-center title text-white">
-                    <h1><span class="colorful">Contact</span>  Me</h1>
+                    <h1><span class="colorful">Contact</span> Me</h1>
                     <p class="text-secondary"> get connected with Me </p>
                 </div>
                 <div class="row mx-0 g-5 text-white" id="contact">
@@ -301,36 +309,37 @@
 
 
                         <div class="col-md-6 col-sm-12 col-12 order-md-1 order-sm-2 order-2">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com">
-                                <label for="floatingInput">your name</label>
-                            </div>
+                            <form action="javascript:sendmail()" method="post" id="myForm">                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="Name" name="Name"
+                                        placeholder="name">
+                                    <label for="Name">your name</label>
+                                </div>
 
 
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com">
-                                <label for="floatingInput">Email address</label>
-                            </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="Sender" name="Sender"
+                                        placeholder="name@example.com">
+                                    <label for="Sender">Email address</label>
+                                </div>
 
 
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea"></textarea>
-                                <label for="floatingTextarea">subject</label>
-                            </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                      name="Subject"  id="Subject"></textarea>
+                                    <label for="Subject">subject</label>
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here" style="height: 20vh;"
-                                    id="floatingTextarea"></textarea>
-                                <label for="floatingTextarea">your message...</label>
-                            </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        style="height: 20vh;" name="Message" id="Message"></textarea>
+                                    <label for="Message">your message...</label>
+                                </div>
 
 
-                            <div class="text-end ">
-                                <button class="sendMessage ">SEND MESSAGE</button>
-                            </div>
+                                <div class="text-end ">
+                                    <button type="submit " class="sendMessage ">SEND MESSAGE</button>
+                                </div>
+                            </form>
                         </div>
 
 
@@ -472,7 +481,7 @@
 
 
     <script src="./ourWorks/ourWorks.js"></script>
-    
+
     <!-- isotope (filter and sort) CDN link -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script>
@@ -490,11 +499,15 @@
 
 
 
-<script src="./myBlog/myBlog.js"></script>
+    <script src="./myBlog/myBlog.js"></script>
 
 
     <script src="./contactMe/contactMe.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+
+
+  <script src="./contactMe/sendMessage.js"></script>
 
 
 </body>
